@@ -1,8 +1,9 @@
 MODULE MainModule
+    PROC fun1()
+        TPWrite "text";
+    ENDPROC
     PROC main()
         TPWrite "text";
-        TPWrite "text2";
-        IF 1 = 1 THEN
-        ENDIF
+        fun1;
     ENDPROC
 ENDMODULE
